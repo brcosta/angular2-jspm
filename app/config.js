@@ -13,6 +13,7 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
+
   map: {
     "angular2": "npm:angular2@2.0.0-alpha.44",
     "babel": "npm:babel-core@5.8.29",
