@@ -1,12 +1,22 @@
 {
+  "scripts": {
+    "prepublish": "./node_modules/.bin/jspm install"
+  },
   "jspm": {
+    "directories": {
+      "baseURL": "app"
+    },
     "dependencies": {
       "angular2": "npm:angular2@^2.0.0-alpha.44",
       "reflect-metadata": "npm:reflect-metadata@^0.1.2"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
-      "babel-runtime": "npm:babel-runtime@^5.8.24"
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
     }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.13"
   }
 }
