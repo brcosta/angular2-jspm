@@ -1,14 +1,7 @@
 System.config({
   baseURL: "/",
   defaultJSExtensions: true,
-  transpiler: "babel",
-  babelOptions: {
-    "optional": [
-      "es7.decorators",
-      "runtime",
-      "optimisation.modules.system"
-    ]
-  },
+  transpiler: "none",
   paths: {
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
@@ -16,7 +9,6 @@ System.config({
 
   map: {
     "angular2": "npm:angular2@2.0.0-alpha.44",
-    "babel": "npm:babel-core@5.8.29",
     "babel-runtime": "npm:babel-runtime@5.8.29",
     "core-js": "npm:core-js@1.2.3",
     "reflect-metadata": "npm:reflect-metadata@0.1.2",
